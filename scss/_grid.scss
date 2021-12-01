@@ -1,0 +1,27 @@
+// var
+
+$grid:grid;
+
+@media only screen and (min-width: 1023px){
+	.grid-container{
+		display: $grid;
+		grid-template-areas:
+		"logo nav nav"
+		"contenido contenido contenido"
+		"footer footer footer";
+		grid-template-rows:repeat(3, 33%);
+		grid-template-columns:150px 1fr 400px;
+		.logo{
+			grid-area:logo;
+		}
+		.nav{
+			grid-area:nav;
+		}
+		.encabezado{
+			grid-area:encabezado;
+		}
+		footer{
+			grid-area:footer;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+@import "colores";
+$flex:flex;
+
+footer{
+	background-color:$azul;
+	display: $flex;
+	h3{
+		color: $blanco;
+	}
+}

@@ -1,0 +1,15 @@
+$azul:red;
+$pTop:10px;
+$negro:black;
+
+
+// nesting
+li{
+	padding: $pTop;
+	a {
+		color:$azul;
+	&:hover{ //&:hover = a:hover
+		background-color:rgba(244, 212, 144, .7);
+		}
+	}
+}
